@@ -313,13 +313,12 @@
                 android:layout_weight=".5">
 
                 <TextView
-                    android:text="TextView"
+                    android:text="Test Okay"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/test_textview"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
-                    android:layout_marginRight="11dp"
                     android:layout_marginBottom="15dp" />
             </RelativeLayout>
 
@@ -354,7 +353,7 @@
                     android:id="@+id/bt_connect_btn"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Base.Widget.PopupMenu.Small" />
+                    android:textAppearance="?android:textAppearanceSmall" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -369,7 +368,7 @@
                     android:id="@+id/neurosky_connect_btn"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Base.Widget.PopupMenu.Small" />
+                    android:textAppearance="?android:textAppearanceSmall" />
             </RelativeLayout>
         </LinearLayout>
     </RelativeLayout>

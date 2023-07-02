@@ -313,7 +313,7 @@
                 android:layout_weight=".5">
 
                 <TextView
-                    android:text="Test Okay"
+                    android:text="Eye Blink -- "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/test_textview"

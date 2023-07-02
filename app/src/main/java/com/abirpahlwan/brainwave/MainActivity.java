@@ -82,6 +82,7 @@ public class MainActivity extends Activity {
 
     //Additional Bluetooth Connect Variables HC-06
     private final String DEVICE_ADDRESS = "04:22:10:20:0B:ED"; //MAC Address of Bluetooth Module
+    private final String HEAD_DEVICE_ADDRESS = "00:22:09:01:95:53"; //MAC Address of Bluetooth Module
     private final UUID PORT_UUID = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
 
     private BluetoothDevice device;
@@ -471,7 +472,7 @@ public class MainActivity extends Activity {
         {
             for(BluetoothDevice iterator : bondedDevices)
             {
-                if(iterator.getAddress().equals(DEVICE_ADDRESS))
+                if(iterator.getAddress().equals(HEAD_DEVICE_ADDRESS))
                 {
                     device = iterator;
                     found = true;

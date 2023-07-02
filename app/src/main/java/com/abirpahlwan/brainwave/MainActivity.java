@@ -81,7 +81,7 @@ public class MainActivity extends Activity {
     long previous_click_time;
 
     //Additional Bluetooth Connect Variables HC-06
-    private final String DEVICE_ADDRESS = "98:D3:31:90:82:9A"; //MAC Address of Bluetooth Module
+    private final String DEVICE_ADDRESS = "04:22:10:20:0B:ED"; //MAC Address of Bluetooth Module
     private final UUID PORT_UUID = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
 
     private BluetoothDevice device;
